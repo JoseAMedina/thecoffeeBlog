@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeBlog</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header class="header-contact">
+
+        <div class="container">
+            <div class="bar">
+                <a class="logo no-margin center-text" href="index.html">
+                    <h1>thecoffeeBlog</h1>
+                </a>
+
+                <nav class="navigation">
+                    <a href="aboutUs.html" class="navigation__link">About us</a>
+                    <a href="courses.html" class="navigation__link">Courses</a>
+                    <a href="contact.html" class="navigation__link--active">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__text">
+            <h2 class="no-margin">Coffee headquarters</h2>
+            <h3>Let's have a coffee together?</h3>
+        </div>
+    </header>
+
+    <main class="container main-contact">
+        <h4 class="contact-headline">Contact us</h4>
+
+        <div class="contact-bg"></div>
+
+<!--********** Formulary **********-->
+        <form class="formulary">
+            <div class="field">
+                <label class="field__label" for="name">Name</label>
+                <input
+                    class="field__field" 
+                    type="text" 
+                    placeholder="Your name" 
+                    id="name"
+                >
+            </div>
+            <div class="field">
+                <label class="field__label" for="email">Email</label>
+                <input
+                    class="field__field"
+                    type="email" 
+                    placeholder="Your email" 
+                    id="email"
+                >
+            </div>
+            <div class="field">
+                <label class="field__label" for="message">Message</label>
+                <textarea
+                    class="field__field--textarea"
+                    id="message"
+                >
+                </textarea>
+            </div>
+            <div class="send-button">
+                <input
+                    type="submit" 
+                    value="Send" 
+                    class="button primary--button"
+                >
+            </div>
+        </form>
+
+        
+        </div>
+    </main>
+
+<!--********** Footer **********-->
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a class="logo no-margin center-text" href="index.html">
+                    <h1>thecoffeeBlog</h1>
+                </a>
+
+                <nav class="footer__navigation">
+                    <a href="aboutUs.html" class="navigation__link">About us</a>
+                    <a href="courses.html" class="navigation__link">Courses</a>
+                    <a href="contact.html" class="navigation__link--active">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
